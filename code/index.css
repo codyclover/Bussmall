@@ -1,0 +1,63 @@
+body {
+  background-color: grey;
+}
+#mainHeader {
+  text-align: center;
+  font-family: Arial;
+  font-size: 50px;
+}
+#secondHeader {
+  text-align: center;
+  font-family: Arial;
+  font-size: 35px;
+  font-style: italic;
+}
+#bio {
+  font-family: Arial;
+  text-align: center;
+  font-size: 20px;
+}
+#bio2 {
+  font-family: Arial;
+  text-align: center;
+  font-size: 20px;
+}
+
+#placeForPics {
+  text-align: center;
+}
+
+#box1 {
+  width:300px;
+  height: 300px;
+  border: solid;
+  list-style-type: none;
+  display:inline-block;
+  margin: 40px;
+  box-shadow: 10px 10px 5px purple;
+}
+#box2 {
+  width: 300px;
+  height: 300px;
+  border: solid;
+  list-style-type: none;
+  display:inline-block;
+  margin: 40px;
+  box-shadow: 10px 10px 5px purple;
+}
+#box3 {
+  width: 300px;
+  height: 300px;
+  border: solid;
+  list-style-type: none;
+  display:inline-block;
+  margin: 40px;
+  box-shadow: 10px 10px 5px purple;
+}
+#imgButtonClick {
+  margin-left: 25px;
+}
+canvas {
+  margin-left: 19%;
+  margin-top: 10%;
+}

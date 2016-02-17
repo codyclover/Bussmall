@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  <title>BusMall Product Selector</title>
+  <link rel="stylesheet" href="index.css" type="text/css">
+  </head>
+  <body>
+    <header>
+      <h1 id="mainHeader">BussMall</h1>
+      <p id="secondHeader">"Just like SkyMall, shit you do not need!"</p>
+      <p id='bio'>Below you will see a set of pictures, click on your favorite one.</p>
+      <p id='bio2'>After 15 'clicks' you will see a graph that shows your stats!</p>
+    </header>
+    <section>
+      <article>
+      <main id="placeForPics">
+        <img id="box1"/>
+        <img id="box2"/>
+        <img id="box3"/>
+      </main>
+      <form id='imgButtonClick'>
+        <button type="button" name="imgButtonClick">Refresh</button>
+      </form>
+      </article>
+    </section>
+    <footer>
+    </footer>
+      <canvas id='myChart'></canvas>
+  <script src="chart.js"></script>
+  <script src="index.js"></script>
+  </body>
+</html>
